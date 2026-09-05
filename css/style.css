@@ -1,0 +1,55 @@
+body{
+    width:100%;
+    min-height:100vh;
+    place-items:center;
+}
+.slots{
+    border:1px solid rgb(34, 181, 163);
+    height:100px;
+    width: 300px;
+    box-shadow: 5px 5px 10px 5px rgba(151, 142, 14, 0.3);
+    border-radius: 10px;
+    display:flex;
+}
+.reel{
+    border:1px solid rgb(83, 171, 16);
+    flex:1;
+    display: grid;
+    place-items: center;
+    font-size: 80px;
+}
+.remainingBalance{
+    font-size:25px;
+    text-align:center;
+    font-weight: bold;
+    color:rgb(193, 28, 28);
+}
+h1{
+    color:goldenrod;
+}
+.betButtons{
+    display:flex;
+    gap:40px;
+}
+.minBet{
+    width:80px;
+    height:30px;
+    background:rgb(196, 158, 181);
+    font-size:18px;
+    border-radius: 30px;
+    font-weight:bold;
+}
+.maxBet{
+    width:90px;
+    height:30px;
+    background:rgb(156, 158, 211);
+    font-size:18px;
+    border-radius: 30px;
+    font-weight:bold;
+}
+.message{
+    font-style:italic;
+    font-size:30px;
+    color:rgb(198, 123, 77);
+}
+
